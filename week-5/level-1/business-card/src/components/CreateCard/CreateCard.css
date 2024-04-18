@@ -1,0 +1,15 @@
+.social-input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.create-container {
+    flex-direction: column;
+}
+
+.create-card-container {
+    max-width: 30rem;
+    min-width: 10rem;
+}

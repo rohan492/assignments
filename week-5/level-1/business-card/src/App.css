@@ -1,0 +1,69 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+
+    border: 1px solid #eee;
+    padding: 1rem 10rem 1rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 20px 1px 30px black;
+
+    max-width: 15rem;
+    min-width: 10rem;
+}
+
+.name {
+    font-size: 1.5rem;
+}
+
+.interest-heading {
+    font-size: 1.2rem;
+}
+
+.name,
+.interest-heading  {
+    font-weight: 580;
+}
+
+.interest-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.interest {
+    font-weight: lighter;
+}
+
+.social-container {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.social {
+    padding: 0.5rem 1rem;
+    border: 1px solid #2a8dea;
+    background-color: #2a8dea;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 5px black;
+    text-decoration: none;
+}
+
+.social:hover {
+    scale: 1.2;
+    transition: 0.25s ease-in;
+}
+
